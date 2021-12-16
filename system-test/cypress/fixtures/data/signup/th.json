@@ -1,0 +1,13 @@
+{
+  "usersSuccess": [{
+    "email": "testuser+1@gmail.com",
+    "password": "password",
+    "nickname": "สมชัย Thinknet",
+    "avatar": "images/profile/avatar-A.png"
+  }, {
+    "email": "testuser+2@gmail.com",
+    "password": "password!@@#",
+    "nickname": "สมชัย @@! Thinknet",
+    "avatar": "images/profile/avatar-B.png"
+  }]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "system-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "cypress:open": "./node_modules/.bin/cypress open"
+  },
+  "devDependencies": {
+    "cypress": "9.1.1",
+    "cypress-file-upload": "5.0.4",
+    "cypress-wait-until": "1.6.0",
+    "cypress-xpath": "1.4.0",
+    "dotenv": "8.2.0",
+    "i18next": "19.6.1",
+    "mochawesome": "6.1.1",
+    "upload-file": "1.2.0"
+  }
+}

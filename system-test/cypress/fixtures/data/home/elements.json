@@ -1,0 +1,7 @@
+{
+  "EMAIL_LABEL": "#index-email-label",
+  "NICKNAME_LABEL": "#index-nickname-label",
+  "AVATAR_IMAGE": "#index-avatar-image",
+  "ABOUT_BUTTON": "#index-about-button",
+  "SIGN_OUT_BUTTON": "#index-signout-button"
+}

@@ -1,0 +1,6 @@
+{
+  "EMAIL_REQUIRED_LABEL": "Please input your email!",
+  "EMAIL_INVALID_LABEL": "The input is not valid E-mail!",
+  "PASSWORD_REQUIRED_LABEL": "Please input your password!",
+  "USER_NOT_FOUND": "Invalid email and password combination"
+}

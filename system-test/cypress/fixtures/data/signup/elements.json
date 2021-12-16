@@ -1,0 +1,14 @@
+{
+  "form": {
+    "EMAIL_INPUT": "#signup-form-email-input",
+    "EMAIL_ERROR_REQUIRED_LABEL": "#signup-form-email-error-requiredlabel",
+    "EMAIL_ERROR_NOT_VALID_LABEL": "#signup-form-email-error-notvalidlabel",
+    "NICKNAME_INPUT": "#signup-form-nickname-input",
+    "UPLOAD_INPUT": "#signup-form_upload",
+    "UPLOAD_ITEM_PREVIEW": ".ant-upload-list-item-image",
+    "PASSWORD_INPUT": "#signup-form-password-input",
+    "PASSWORD_ERROR_REQUIRED_LABEL": "#signup-form-password-error-requiredlabel",
+    "SUBMIT_BUTTON": "#signup-form-submit-button"
+  },
+  "LOGIN_BUTTON": "#signup-login-button"
+}

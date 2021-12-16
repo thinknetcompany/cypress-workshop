@@ -1,0 +1,31 @@
+version: '2'
+services:
+    cypress:
+        build: ./system-test
+        depends_on:
+            - web-demo
+        working_dir: /usr/src/app
+        volumes:
+            - ./system-test:/usr/src/app
+        env_file:
+            - ./system-test/.env
+        environment:
+            - URL_TH=http://web-demo:3000
+            - URL_EN=http://web-demo:3000
+            - API_DOMAIN=http://web-demo:3000/api/graphql
+        command: ['sh', '-c', 'npm install && npm run cypress:open']
+    web-demo:
+        build: ./web-demo
+        working_dir: /usr/src/app
+        volumes:
+            - ./web-demo:/usr/src/app
+        ports:
+            - "3000:3000"
+        env_file:
+            - ./web-demo/.env
+        command: ['sh', '-c', 'npm install && npm run dev']
+
+networks:
+    default:
+        external:
+            name: microservicenetwork
