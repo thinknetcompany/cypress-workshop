@@ -1,6 +1,6 @@
-import { t } from '../../support/locales'
-import { LANGUAGE, VIEWPORT_LIST } from '../../configs'
-import home from '../../fixtures/data/home/elements.json'
+import { t } from '../../../support/locales'
+import { LANGUAGE, VIEWPORT_LIST } from '../../../configs'
+import home from '../../../fixtures/data/home/elements.json'
 
 describe(`${LANGUAGE} | Test Profile page`, () => {
   beforeEach(() => {

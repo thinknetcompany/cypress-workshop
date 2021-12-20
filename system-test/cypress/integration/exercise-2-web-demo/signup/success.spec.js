@@ -1,8 +1,8 @@
-import { t } from '../../support/locales'
-import { LANGUAGE, VIEWPORT_LIST } from '../../configs'
-import signin from '../../fixtures/data/signin/elements.json'
-import home from '../../fixtures/data/home/elements.json'
-import { form } from '../../fixtures/data/signup/elements.json'
+import { t } from '../../../support/locales'
+import { LANGUAGE, VIEWPORT_LIST } from '../../../configs'
+import signin from '../../../fixtures/data/signin/elements.json'
+import home from '../../../fixtures/data/home/elements.json'
+import { form } from '../../../fixtures/data/signup/elements.json'
 
 const userList = [
   ['A', t('signup.usersSuccess.0')],
