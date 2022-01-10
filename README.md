@@ -29,7 +29,8 @@ Visit web demo [http://localhost:3000](http://localhost:3000).
 ```
 cd web-demo
 npm install
-npm run dev
+npm run build
+npm run start
 ```
 
 Visit web demo [http://localhost:3000](http://localhost:3000).
