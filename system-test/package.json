@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "cypress:open": "./node_modules/.bin/cypress open"
+    "cypress:open": "cypress open"
   },
   "devDependencies": {
     "cypress": "9.1.1",
